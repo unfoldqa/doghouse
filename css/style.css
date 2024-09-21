@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1060px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+.main {
+  background: url(../img/bg-main.png) no-repeat center center/cover;
+  height: 800px;
+}
+
+.about__wrapper {
+  height: 700px;
+  background-color: #5D62B5;
+  border-radius: 40px;
+  margin-top: -80px;
+  position: relative;
+}
+.about__ttl {
+  position: absolute;
+  font-size: 56px;
+  font-weight: 900;
+  top: -480px;
+  color: white;
+  width: 600px;
+}
+.about__btn {
+  position: absolute;
+  top: -312px;
+  color: white;
+  background-color: #F2726F;
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+.about__dots {
+  position: absolute;
+  top: -110px;
+  right: -70px;
+}
+.about__txt-ttl {
+  color: white;
+}
+.about__ttl-dog {
+  display: flex;
+  padding-top: 80px;
+  padding-left: 60px;
+  align-items: center;
+}
+.about__txt-dog {
+  color: white;
+  font-size: 36px;
+  font-weight: 700;
+  width: 700px;
+  padding: 25px 62px;
+}
+.about__txt-end {
+  color: white;
+  padding: 0px 62px;
+  width: 950px;
+}
+.about__dog {
+  border-radius: 40px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -120px;
+  z-index: 1;
+}
+.about__blob {
+  position: absolute;
+  top: 260px;
+}
+
+.tell__wrapper {
+  position: relative;
+  top: 250px;
+}
+.tell__img-txt {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.tell__txt {
+  font-size: 12px;
+  font-weight: 700;
+  color: #5D62B5;
+}
+.tell__ttl {
+  font-size: 36px;
+  font-weight: 900;
+  margin-top: 30px;
+}
+.tell__blocks {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.tell__block {
+  display: flex;
+  margin: 0 auto;
+  width: 300px;
+}
+.tell__img {
+  position: relative;
+  left: -20px;
+  height: 65px;
+}
+.tell__ttl-in-block {
+  color: #F2726F;
+  font-size: 19px;
+  font-weight: 900;
+}
+.tell__txt-in-block {
+  color: #4B4B4B;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.doggie {
+  position: relative;
+  padding: -100px;
+  margin-top: 350px;
+  height: 70vh;
+  background: #29C3BE center center/cover;
+}
+.doggie__cicrcle {
+  position: absolute;
+  top: 180px;
+}
+.doggie__blop {
+  position: absolute;
+}
+.doggie__dog {
+  position: absolute;
+  top: 60px;
+}
+.doggie__txt {
+  position: absolute;
+  top: 100px;
+  margin-left: 800px;
+  z-index: 1;
+}
+.doggie__ttl {
+  max-width: 411px;
+  font-size: 36px;
+  font-weight: 900;
+  color: white;
+  margin-bottom: 80px;
+}
+.doggie__btn {
+  padding: 15px 30px;
+  border-radius: 5px;
+  background-color: #F2726F;
+  font-size: 12px;
+  font-weight: 500;
+  color: white;
+}
+.doggie__line {
+  position: absolute;
+  margin-left: 750px;
+}
+.doggie__ball {
+  position: absolute;
+  top: 170px;
+  margin-left: 1300px;
+}/*# sourceMappingURL=style.css.map */
